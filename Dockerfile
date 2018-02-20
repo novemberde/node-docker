@@ -1,4 +1,4 @@
-FROM docker:17.05.0-ce-git
+FROM docker
 
 RUN apt-get update -y && \
      apt-get upgrade -y && \
