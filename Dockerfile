@@ -1,9 +1,5 @@
 FROM docker
 
-RUN apt-get update -y && \
-     apt-get upgrade -y && \
-     apt-get install -y build-essential
-
 ENV NODE_VERSION 9.2.0
 
 RUN ARCH= && dpkgArch="$(dpkg --print-architecture)" \
