@@ -2,7 +2,7 @@ FROM docker:17.05.0-ce-git
 
 RUN apt-get update -y && \
      apt-get upgrade -y && \
-     apt-get install -y build-essential && \
+     apt-get install -y build-essential
 
 ENV NODE_VERSION 9.2.0
 
